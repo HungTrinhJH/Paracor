@@ -1,0 +1,28 @@
+.badge-container {
+  height: 32px;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color-1);
+  transition: all 0.3s;
+  border-radius: 8px;
+  margin-right: 4px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.badge-container .badge-title {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.badge-container:hover {
+  background-color: var(--bg-color-2);
+}
+.badge-container i {
+  transition: all 0.3s;
+}
+.badge-container i:hover {
+  transform: scale(1.4);
+}

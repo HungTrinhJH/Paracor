@@ -1,0 +1,28 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  height: 560px;
+  width: 800px;
+  border: 3px solid var(--bg-color-main);
+  padding: 8px 16px;
+  top: 2%;
+  left: 25%;
+  transition: all 0.3s ease-out;
+  border-radius: 5px;
+  border:1px solid black;
+}
+
+.icon-close{
+  font-size: 24px;
+}
+
+
+.btn-wrp-edit{
+  position: relative;
+}
+.btn-edit-summit{
+  position: absolute;
+  right: 0;
+  top:2%;
+}

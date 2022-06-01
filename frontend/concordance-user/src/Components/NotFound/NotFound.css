@@ -1,0 +1,24 @@
+.page_404 {
+    padding: 92px;
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page_img img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 60vh;
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #0f223d;
+    margin: 20px 0;
+    display: inline-block;
+}
